@@ -1,0 +1,150 @@
+﻿body {
+    background-image: url("../images/profilepage.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+.background_cover {
+    opacity: 0.7;
+    /*background-color: #4d0066;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.logo {
+    position: absolute;
+    top: 0;
+    left: 1%;
+    height:25%;
+}
+
+.metal_plate {
+    background-image: url("../images/metalplate.jpg");
+    position: absolute;
+    top: 8%;
+    left: 17%;
+    height: 7%;
+    width: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    text-align: center;
+    padding:2px;
+}
+.username {
+    /*position: absolute;
+    top: 8%;
+    left: 17%;*/
+    color: white;
+    font-size: 400%;
+    font-family: Arial;
+    font-weight:bold;
+    /*-webkit-text-stroke: 1.5px black;*/
+}
+
+.outer_container {
+    /*margin: auto;*/
+    width: 100%;
+    margin-top: 14%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.stats {
+    width: 40%;
+    height: 60%;
+    background: #2D4159;
+    float: left;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.stats_title {
+    font-family: Arial;
+    color: white;
+    font-size: 200%;
+    width: 100%;
+    background: #DD6E42;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+.wins {
+    font-family: Arial;
+    color: white;
+    font-size: 200%;
+    width: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: inline-block;
+
+}
+
+.kills {
+    font-family: Arial;
+    color: white;
+    font-size: 200%;
+    width: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    float:right;
+}
+
+
+.matches {
+    font-family: Arial;
+    color: white;
+    font-size: 200%;
+    width: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+.killdeath {
+    font-family: Arial;
+    color: white;
+    font-size: 200%;
+    width: 50%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    float: right;
+
+}
+
+.stat_value{
+    text-align:center;
+}
+
+
+
+.history {
+    width: 40%;
+    background: #2D4159;
+    height: 60%;
+    float: left;
+    margin-left: 5%;
+}
+.history_title {
+    font-family: Arial;
+    color: white;
+    font-size: 200%;
+    width: 100%;
+    background: #9E2A2B;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+
+

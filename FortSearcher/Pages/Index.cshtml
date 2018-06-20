@@ -1,0 +1,47 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    Layout = null;
+}
+
+<link rel="stylesheet" href="~/css/index.css">
+<link rel="shortcut icon" href="../favicon.ico">
+<link rel="stylesheet" type="text/css" href="~/css/normalize.css" />
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
+@*<link rel="stylesheet" type="text/css" href="~/css/demo.css" />*@
+<link rel="stylesheet" type="text/css" href="~/css/set1.css" />
+<div class="outer-container">
+    <img src="~/images/fortnitelogo.jpg" class="logo" />
+    <div asp-validation-summary="All"></div>
+    <form method="POST">
+        <input class="search_bar form-control" spellcheck="false" autocomplete="off" placeholder="Enter your Epic Handle" asp-for="User_input" />
+
+        @*<select id="memoryType" class="form-control combo_box">
+                <option value="pc" selected="selected">PC</option>
+                <option value="ps4">PS4</option>
+                <option value="xbox">XBOX</option>
+                <option value="switch">SWITCH</option>
+
+            </select>*@
+    </form>
+    <br />
+
+
+    <div class="error_message"> @Model.Error_message </div>
+    <input class="submit_button btn btn-primary" type="submit" />
+
+</div>
+
+
+
+<div class="bottom-corner">
+    <p class="author">By: Renzo Ventura 2018</p>
+    <p class="text">
+        *DISCLAIMER: I am not affiliated with Epic Games,
+        I'm just someone with a passion for developing.
+        Find more about my works here: https://github.com/renzoventura
+    </p>
+
+
+</div>

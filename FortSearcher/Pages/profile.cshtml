@@ -1,0 +1,62 @@
+﻿@page
+@model FortSearcher.Pages.profileModel
+@{
+    ViewData["Title"] = "profile";
+    Layout = null;
+
+}
+<link rel="stylesheet" href="~/css/profile.css">
+
+<div class="background_cover"></div>
+
+
+<img src="~/images/fortnitelogo.jpg" class="logo" />
+@*asp-page="../Profile/Index"*@
+
+<div class="metal_plate">
+    <div class="username"> @Model.Username</div>
+</div>
+
+
+
+<div class="outer_container">
+    <div class="stats cards">
+        <div class="stats_title"> Overall Stats </div>
+        <div class="wins">
+            <div>&nbsp;Wins:</div>
+            <div class="stat_value">@Model.Total_wins["value"]</div>
+        </div>
+        <div class="kills">
+            <div>Kills:</div>
+            <div class="stat_value">@Model.Total_kills["value"]</div>
+        </div>
+        <div class="matches">
+            <div>&nbsp;Games:</div>
+            <div class="stat_value">@Model.Total_matches["value"]</div>
+        </div>
+
+        <div class="killdeath">
+            <div>KDA:</div>
+            <div class="stat_value">@Model.Kill_death_ratio["value"]</div>
+        </div>
+    </div>
+    <div class="history cards">
+        <div class="history_title"> Recent Matches </div>
+    </div>
+</div>
+
+
+@*<p> @Model.Total_wins["key"]</p>
+    <p> @Model.Total_wins["value"]</p>
+
+    <p> @Model.Total_kills["key"]</p>
+    <p> @Model.Total_kills["value"]</p>
+
+    <p> @Model.Total_matches["key"]</p>
+    <p> @Model.Total_matches["value"]</p>
+
+
+    <p> @Model.Kill_death_ratio["key"]</p>
+    <p> @Model.Kill_death_ratio["value"]</p>*@
+
+
